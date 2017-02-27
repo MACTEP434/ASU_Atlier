@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>АСУ_Ателье(Objects)</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.АСУ_Ателье.Заказ">
+            <summary>
+            Заказ.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Заказ.КодЗаказа">
+            <summary>
+            КодЗаказа.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Заказ.ДатаПоступления">
+            <summary>
+            ДатаПоступления.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Заказ.ДатаЗакрытия">
+            <summary>
+            ДатаЗакрытия.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Заказ.СтатусЗаказа">
+            <summary>
+            СтатусЗаказа.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Заказ.Сумма">
+            <summary>
+            Сумма.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Заказ.Клиент">
+            <summary>
+            Заказ.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Заказ.Модель">
+            <summary>
+            Заказ.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Заказ.Цех">
+            <summary>
+            Заказ.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Заказ.Мастер">
+            <summary>
+            Заказ.
+            </summary>
+        </member>
+        <member name="T:IIS.АСУ_Ателье.Заказ.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Заказ.Views.ЗаказE">
+            <summary>
+            "ЗаказE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Заказ.Views.ЗаказL">
+            <summary>
+            "ЗаказL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.АСУ_Ателье.Клиент">
+            <summary>
+            Клиент.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Клиент.КодКлиента">
+            <summary>
+            КодКлиента.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Клиент.ФИОКлиента">
+            <summary>
+            ФИОКлиента.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Клиент.ТелефонКлиента">
+            <summary>
+            ТелефонКлиента.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Клиент.Мастер">
+            <summary>
+            Клиент.
+            </summary>
+        </member>
+        <member name="T:IIS.АСУ_Ателье.Клиент.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Клиент.Views.КлиентE">
+            <summary>
+            "КлиентE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Клиент.Views.КлиентL">
+            <summary>
+            "КлиентL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.АСУ_Ателье.Мастер">
+            <summary>
+            Мастер.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Мастер.КодМастера">
+            <summary>
+            КодМастера.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Мастер.ФИОМастера">
+            <summary>
+            ФИОМастера.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Мастер.Цех">
+            <summary>
+            Мастер.
+            </summary>
+        </member>
+        <member name="T:IIS.АСУ_Ателье.Мастер.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Мастер.Views.МастерE">
+            <summary>
+            "МастерE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Мастер.Views.МастерL">
+            <summary>
+            "МастерL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.АСУ_Ателье.tСтатусЗаказа">
+            <summary>
+            T статус заказа.
+            </summary>
+        </member>
+        <member name="F:IIS.АСУ_Ателье.tСтатусЗаказа.ВРаботе">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.АСУ_Ателье.tСтатусЗаказа.ОжидаетКлиента">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.АСУ_Ателье.tСтатусЗаказа.Завершён">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.АСУ_Ателье.Цех">
+            <summary>
+            Цех.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Цех.КодЦеха">
+            <summary>
+            КодЦеха.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Цех.НаименованиеЦеха">
+            <summary>
+            НаименованиеЦеха.
+            </summary>
+        </member>
+        <member name="T:IIS.АСУ_Ателье.Цех.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Цех.Views.ЦехE">
+            <summary>
+            "ЦехE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.Цех.Views.ЦехL">
+            <summary>
+            "ЦехL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.АСУ_Ателье.МодельОдежды">
+            <summary>
+            Модель одежды.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.МодельОдежды.КодМодели">
+            <summary>
+            КодМодели.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.МодельОдежды.НазваниеМодели">
+            <summary>
+            НазваниеМодели.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.МодельОдежды.РазмерМодели">
+            <summary>
+            РазмерМодели.
+            </summary>
+        </member>
+        <member name="T:IIS.АСУ_Ателье.МодельОдежды.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.МодельОдежды.Views.МодельОдеждыE">
+            <summary>
+            "МодельОдеждыE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.АСУ_Ателье.МодельОдежды.Views.МодельОдеждыL">
+            <summary>
+            "МодельОдеждыL" view.
+            </summary>
+        </member>
+    </members>
+</doc>
